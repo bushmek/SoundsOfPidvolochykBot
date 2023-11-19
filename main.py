@@ -97,7 +97,21 @@ async def inline_query(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
             video_file_id="DQACAgIAAxkBAAMeZTlgZn5p0WAWv-Bfc2VCDN5vKl0AAhIDAAKVnXFJNfjApbfLwjYwBA",
             title="Лесная братва",
             caption="Лесная братва",
-            description="qwfhoewqfno djkfn"
+            description="Діди пють пиво"
+        ),
+        InlineQueryResultCachedVideo(
+            id=str(uuid4()),
+            video_file_id="DQACAgIAAxkBAAM7ZVp2hIU4s3QIm9TchaLXUV3VzLgAAsY4AAIrg9FK2nWjy01ZO3wzBA",
+            title="Фейс палм",
+            caption="Фейс палм",
+            description="Фейс палм"
+        ),
+        InlineQueryResultCachedVideo(
+            id=str(uuid4()),
+            video_file_id="DQACAgIAAxkBAAM6ZVp2e3dWR5qwKM-JWN88izleeacAAsk4AAIrg9FKNFLccIHIwAQzBA",
+            title="Чисті зуби",
+            caption="Чисті зуби",
+            description="Чисті зуби"
         ),
     ]
 
